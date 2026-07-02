@@ -307,7 +307,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .service-card__img--1{ background-image:url('Манікюр.jpg'); background-size:cover; background-position:center; }
 .service-card__img--2{ background-image:url('Педикюр.jpg'); background-size:cover; background-position:center; }
 .service-card__img--3{ background-image:url('Фарбування.jpg'); background-size:cover; background-position:center; }
-.service-card__img--4{ background-image:url('Стрижки.jpeg'); background-size:cover; background-position:center; }
+.service-card__img--4{ background-image:url('Стрижки.jpg'); background-size:cover; background-position:center; }
 .service-card__img--5{ background-image:url('Макіяж.jpg'); background-size:cover; background-position:center; }
 .service-card__img--6{ background-image:url('Косметологія.jpg'); background-size:cover; background-position:center; }
 .service-card__body{ padding:26px; }
