@@ -345,13 +345,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
    5. ДО / ПІСЛЯ (Before / After slider)
    Замініть градієнти на реальні фото "до" і "після"
    =========================================== */
-.ba-slider{
-  position:relative; max-width:820px; margin:0 auto; height:440px;
-  border-radius:var(--radius-lg); overflow:hidden; box-shadow:var(--shadow-soft);
-}
 .ba-slider__before,.ba-slider__after{ position:absolute; inset:0; }
-.ba-slider__before{ background:linear-gradient(135deg,#cfcac2,#a9a29a); } /* "до" — приглушені кольори */
-.ba-slider__after{ background:linear-gradient(135deg,#F3D9DA,#C7A86B); clip-path:inset(0 0 0 50%); } /* "після" — яскраві кольори */
+.ba-slider__before{ background-image:url('До.jpg'); background-size:cover; background-position:center; }
+.ba-slider__after{ background-image:url('Після.jpg'); background-size:cover; background-position:center; clip-path:inset(0 0 0 50%); }
 .ba-slider__label{
   position:absolute; top:20px; padding:8px 18px; border-radius:100px;
   background:rgba(255,255,255,0.85); font-size:0.8rem; font-weight:700; letter-spacing:0.05em; text-transform:uppercase;
