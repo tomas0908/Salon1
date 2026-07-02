@@ -304,12 +304,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .service-card__img{ height:220px; background-size:cover; background-position:center; position:relative; }
 .service-card__img::after{ content:''; position:absolute; inset:0; background:linear-gradient(180deg,transparent 60%, rgba(0,0,0,0.15)); }
 /* Заглушки-градієнти для фото послуг — замініть на реальні зображення */
-.service-card__img--1{ background:linear-gradient(135deg,#F3D9DA,#E4D4B0); }
-.service-card__img--2{ background:linear-gradient(135deg,#E4D4B0,#F7F3ED); }
-.service-card__img--3{ background:linear-gradient(135deg,#C7A86B,#F3D9DA); }
-.service-card__img--4{ background:linear-gradient(135deg,#1E1B18,#7A7570); }
-.service-card__img--5{ background:linear-gradient(135deg,#F3D9DA,#C7A86B); }
-.service-card__img--6{ background:linear-gradient(135deg,#F7F3ED,#E4D4B0); }
+.service-card__img--1{ background-image:url('Манікюр.jpg'); background-size:cover; background-position:center; }
+.service-card__img--2{ background-image:url('Педикюр.jpg'); background-size:cover; background-position:center; }
+.service-card__img--3{ background-image:url('Фарбування.jpg'); background-size:cover; background-position:center; }
+.service-card__img--4{ background-image:url('Стрижки.jpg'); background-size:cover; background-position:center; }
+.service-card__img--5{ background-image:url('Макіяж.jpg'); background-size:cover; background-position:center; }
+.service-card__img--6{ background-image:url('Косметологія.jpg'); background-size:cover; background-position:center; }
 .service-card__body{ padding:26px; }
 .service-card__body h3{ font-size:1.25rem; margin-bottom:8px; }
 .service-card__body p{ color:var(--gray); font-size:0.92rem; margin-bottom:18px; }
