@@ -437,7 +437,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .about__inner{ display:grid; grid-template-columns:0.9fr 1.1fr; gap:70px; align-items:center; }
 .about__img{
   aspect-ratio:4/5; border-radius:var(--radius-lg);
-  background:linear-gradient(150deg,#E4D4B0,#F3D9DA 60%,#C7A86B);
+  background-image:url('Про нас.jpg');
+  background-size:cover; background-position:center;
   box-shadow:var(--shadow-soft);
 }
 .about__content p{ color:var(--gray); margin-bottom:18px; }
